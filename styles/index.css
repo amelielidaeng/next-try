@@ -1,0 +1,43 @@
+/*header stuff here
+im not sure but the font-size 
+isnt working is it?*/
+h1 {
+    background-color: rgb(233, 122, 122);
+    text-align: center;s
+    font-size: 32px;
+    font-style: italic;
+}
+/*big stuff here - relating to all parts*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(241, 190, 194)
+}
+/*article stuff goes here*/
+article {
+    font-size: 14px;
+}
+/*link stuff here*/
+a:link {
+    font-weight: 700;
+    color: rgb(209, 112, 128);
+    text-decoration: none;
+  }
+a:visited {
+    color: rgb(163, 88, 101);
+}
+/*stuff relating to my diary titles here*/
+h4 {
+    font-weight:700; 
+    font-style: italic
+}
+/*I do not get how to make the footer fixed*/
+footer {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(233, 122, 122);
+}
+.date {
+    color:white;
+    font-size: 16px;
+}
