@@ -6,15 +6,13 @@ h1 {
     text-align: center;
     font-size: 32px;
     font-style: italic;
+    padding: 30px;
+    border-bottom: white solid 6px;
 }
 /*big stuff here - relating to all parts*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:rgb(241, 190, 194)
-}
-/*article stuff goes here*/
-article {
-    font-size: 14px;
 }
 /*link stuff here*/
 a:link {
@@ -26,9 +24,26 @@ a:visited {
     color: rgb(163, 88, 101);
 }
 /*stuff relating to my diary titles here*/
+article {
+    width: 70%;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(49, 182, 182, 0.945);
+    background-color: rgba(49, 182, 182, 0.945);
+    border-bottom: white solid;
+    padding: 10px;
+}
 h4 {
+    width: 70%;
     font-weight:700; 
-    font-style: italic
+    font-style: italic;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(49, 182, 182, 0.945);
+    background-color: rgba(49, 182, 182, 0.945);
+    border-bottom: white solid;
+    padding:2px 10px;
 }
 /*I do not get how to make the footer fixed*/
 footer {
@@ -36,6 +51,7 @@ footer {
     font-style: italic;
     text-align: center;
     background-color: rgb(233, 122, 122);
+    border-bottom: white solid 6px;
 }
 .date {
     color:white;
