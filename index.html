@@ -12,18 +12,30 @@
         <h1>
             a frontend diary
         </h1>
-        <nav>
+        <nav> <!--make these fake links to pages instead and do nav in main
+        and find out how to space them evenly-->
+            <p>
+                <a href="#page1">en sida</a>
+                <a href="#page2">en annan sida</a>
+                <a href="#page3">något annat här</a>
+            </p>
+        </nav>
+    </header>
+    <main>
+        <div class="sidebar"> <!--I want it to behave like a sidebar but can't get it to work
+        just gonna leave it as is for now-->
             <ul>
                 <li><a href="#23jan22">söndag</a></li>
                 <li><a href="#24jan22">måndag</a></li>
                 <li><a href="#25jan22">tisdag</a></li>
+                <li><a href="#26jan22">onsdag</a></li>
+                <li><a href="#27jan22">onsdag</a></li>
+                <li><a href="#28jan22">onsdag</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
+        </div>
         <section>
             <h4 class="date">monday 17jan22</h4> 
-            <article>
+            <article class="uranian-blue">
                 <p>Today we had the introduction for FrontEnd Development at Sundsgården. 
                     I am <strong>super excited!</strong> It took a lot less time than anticipated so I had 
                     the chance to call CSN regarding paperwork and catch up on coursework 
@@ -38,7 +50,7 @@
             </section>   
         <section>
             <h4 class="date">tuesday 18jan22</h4>
-            <article>
+            <article class="aero-blue">
                 <p>I had a really long day. Just a really long day. Had the laundry 
                     room booked and it was my turn to drop Lo off at daycare. 
                     Went home and finished a few assignments for the courses at 
@@ -55,7 +67,7 @@
         </section>
         <section>
             <h4 class="date">wednesday 19jan22</h4>
-            <article>
+            <article class="lavender-blue">
                 <p>Hardly slept due to a child that did not sleep, so that was ""fun"". Work 
                     today - 8 days in a row then I get a couple of days off. I have less 
                     than 2 weeks left now. I'm gonna miss my colleagues and the chat and 
@@ -86,7 +98,7 @@
         </section>
         <section>
         <h4 class="date">thursday 20jan22</h4>
-            <article>
+            <article class="aero-blue">
                 <p>Work today as well. Hardly any calls are coming in, so I can study 
                     and write my little journal and try some fun html stuff. Notice my 
                     pretty little font-y things!. Gonna need to write a whole-ass 
@@ -106,7 +118,7 @@
         </section>
         <section>
             <h4 class="date">friday 21jan22</h4>
-            <article>
+            <article class="lavender-blue">
                 <p>So the kid is sick and the sambo is sick and I am super healthy 
                     and super tired. Sent in assignment 1 to Textilhögskolan last night. Did not 
                     expect CSN to deny my application so I'm really hoping for a 
@@ -126,7 +138,7 @@
         </section>
         <section>
             <h4 class="date">saturday 22jan22</h4>
-            <article>
+            <article class="uranian-blue">
                 <p>It's been a long week and it is not over yet. A few hours of work left. 
                     The rest of the family is still sick. Sent in assignment 2 for circular 
                     fashion so now I'm all done with that course. I have 2 days off 
@@ -148,14 +160,13 @@
                     feeling like the meme with the dog working on his computer. 
                 </p>
                 <img src="images/computer-dog.jpg" alt="dog" width="500p">
-                </p>
                 <p>Making pizza tonight. 
                 </p>
             </article>
         </section>
         <section id="23jan22">
             <h4 class="date">sunday 23jan22</h4>
-            <article>
+            <article class="aero-blue">
                 <p>I did absolutely nothing of value on Sunday, which I suppose was extremely
                     valuable for my general well-being. I think I took three calls during my shift
                     today and the rest of the time was spent chatting with my colleagues and watching
@@ -168,7 +179,7 @@
         </section>
         <section id="24jan22">
             <h4 class="date">monday 24jan22</h4>
-            <article>
+            <article class="uranian-blue">
                 <p>We got the new assignments and videos about CSS today! I am excited about colors!
                     I'm just gonna do a bunch of pink I think. I wanna try and do a sidebar of somekind 
                     with little links to my entries. Gonna see if I can sort that out even though we 
@@ -182,7 +193,7 @@
         </section>
         <section id="25jan22">
             <h4 class="date">tuesday 25jan22</h4>
-            <article>
+            <article class="lavender-blue">
                 <p>So it's pink alright! And also a pinker header and footer. What I can't do 
                     is to get the sidebar working like I want. Well, the sidebar is a lil sidebar, but 
                     it covers the text in the body/main. Will ask my teacher what I'm getting wrong 
@@ -195,9 +206,9 @@
                 </p>
             </article>
         </section>
-        <section>
+        <section id="26jan22">
             <h4 class="date">wednesday 26jan22</h4>
-            <article>
+            <article class="aero-blue">
                 <p>It's Friday today (Friday on a Wednesday that is, got 2 days off). Gonna 
                     finish the assignment in Innovative Textiles over my "weekend". I picked up the
                     documentation that CSN has asked for and will send it tomorrow. Fingers crossed 
@@ -214,9 +225,9 @@
                 </p>
             </article>
         </section>
-        <section>
+        <section id="27jan22">
             <h4 class="date">thursday 27jan22</h4>
-            <article>
+            <article class="uranian-blue">
                 <p>Came up with an idea for my Innovation Project report and finished the 
                     whole report. Don't know how good it is, but hopefully I will get a passing grade. 
                     I wrote about compostable socks. That was my innovative idea. Make socks from corn that you can 
@@ -227,12 +238,23 @@
                 </p>       
             </article>
         </section>
-        <br>
+        <section id="28jan22">
+            <h4 class="date">friday 28jan22</h4>
+            <article class="lavender-blue">
+                <p>I got the day off work today as well so I can keep working on the css boxes and 
+                    catching up. I am trying to do a fixed navigation sidebar but it is not doing what I want. 
+                    I can't get the other content to line up - it just ends up underneath. I'm 
+                    gonna let it go for a bit and see if I can work on the fixed footer instead. 
+                </p>
+                <p>I tried the color palette and gradient generators and changed the colors up
+                    a bit. Gonna ad a few classes so I can get diffent articles in different
+                    colors. 
+                </p>
+            </article>
+        </section>
     </main>
     <footer>
-        <br>
         <h2>a footer</h2>
-        <br>
     </footer>
     </body>
 </html>

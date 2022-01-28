@@ -1,48 +1,60 @@
-/*header stuff here
-im not sure but the font-size 
-isnt working is it?*/
+/*header stuff here*/
 h1 {
-    background-color: rgb(233, 122, 122);
+    background-color: #ff99c8;
     text-align: center;
     font-size: 32px;
     font-style: italic;
     padding: 30px;
-    border-bottom: white solid 6px;
+    border-bottom: #FCF6BC solid 6px;
 }
 /*big stuff here - relating to all parts*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(241, 190, 194)
+    background-color: #E4C1F9;
+}
+/*why is the bottom so thick when I add the border-bottom?
+And how do I get the links more spaced?*/
+nav {
+    background-color: #FF99C8;
+    border-bottom: #FCF6BC solid;
+    padding: 5px;
 }
 /*link stuff here*/
 a:link {
     font-weight: 700;
-    color: rgb(209, 112, 128);
+    color: white;
     text-decoration: none;
   }
 a:visited {
-    color: rgb(163, 88, 101);
+    color: #FCF6BC;
 }
 /*stuff relating to my diary titles here*/
 article {
+    display: inline-block;
     width: 70%;
     font-size: 14px;
-    border-style: solid;
     border-width: 2px;
     border-color: rgba(49, 182, 182, 0.945);
-    background-color: rgba(49, 182, 182, 0.945);
-    border-bottom: white solid;
+    background-color: #31b6b6f1;
+    border-bottom: #FCF6BC solid;
     padding: 10px;
+}
+article.lavender-blue {
+    background-color: #A2D2FF;
+}
+article.aero-blue {
+    background-color: #D0F4DE;
+}
+article.uranian-blue {
+    background-color: #a9def9;
 }
 h4 {
     width: 70%;
     font-weight:700; 
     font-style: italic;
-    border-style: solid;
     border-width: 2px;
-    border-color: rgba(49, 182, 182, 0.945);
-    background-color: rgba(49, 182, 182, 0.945);
-    border-bottom: white solid;
+    background-color: #ff99c8;
+    border-bottom: #FCF6BC solid 2px;
     padding:2px 10px;
 }
 /*I do not get how to make the footer fixed*/
@@ -50,8 +62,10 @@ footer {
     font-size: 20px;
     font-style: italic;
     text-align: center;
-    background-color: rgb(233, 122, 122);
-    border-bottom: white solid 6px;
+    background-color: #FF99C8;
+    border-bottom: #FCF6BC solid 6px;
+    padding: 20px;
+    margin-top: 15px;
 }
 .date {
     color:white;
