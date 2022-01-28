@@ -18,6 +18,15 @@ nav {
     background-color: #FF99C8;
     border-bottom: #FCF6BC solid;
     padding: 5px;
+    text-align: center;
+}
+.sidebar {
+    background-color: #FF99C8;
+    border-style: white solid;
+    width: 15%;
+    height: 100%;
+    padding: 10px;
+    float: left;
 }
 /*link stuff here*/
 a:link {
@@ -27,6 +36,9 @@ a:link {
   }
 a:visited {
     color: #FCF6BC;
+}
+section {
+    margin-left: 25%;
 }
 /*stuff relating to my diary titles here*/
 article {
