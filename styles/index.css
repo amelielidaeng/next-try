@@ -12,23 +12,28 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E4C1F9;
 }
-/*why is the bottom so thick when I add the border-bottom?
-And how do I get the links more spaced?*/
+/*why is the bottom so thick when I add the border-bottom? 
+added padding to make top and bottom even*/
 nav {
     background-color: #FF99C8;
     border-bottom: #FCF6BC solid;
     padding: 5px;
     text-align: center;
 }
-.sidebar {
-    background-color: #FF99C8;
-    border-style: white solid;
-    width: 15%;
-    height: 100%;
-    padding: 10px;
-    float: left;
+/* a button! 
+ button {
+    display: inline; 
+    background: #FCF6BC;
+    border: none;
+    margin: 0 50px 0 50px;
+    color:rgba(49, 182, 182, 0.945);
+    text-align: center;
+} */
+.menu-links {
+    margin: 50px;
 }
-/*link stuff here*/
+/*link stuff here
+--> want to add hover color to links*/
 a:link {
     font-weight: 700;
     color: white;
@@ -37,10 +42,24 @@ a:link {
 a:visited {
     color: #FCF6BC;
 }
+/*stuff relating to my diary titles here*/
+.sidebar {
+    background-color: #ff99c8;
+    border-style: white solid;
+    padding: 10px;
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+ul {
+    list-style: none;
+}
 section {
     margin-left: 25%;
 }
-/*stuff relating to my diary titles here*/
+section:last-of-type {
+    margin-bottom: 150px;
+}
 article {
     display: inline-block;
     width: 70%;
@@ -69,8 +88,13 @@ h4 {
     border-bottom: #FCF6BC solid 2px;
     padding:2px 10px;
 }
-/*I do not get how to make the footer fixed*/
+/*footer is fixed but hides content above
+I'm thinking I need to add margin to bottom of the last <section>?*/
 footer {
+    position: fixed;
+    left: o;
+    bottom: 0;
+    width: 100%;
     font-size: 20px;
     font-style: italic;
     text-align: center;
