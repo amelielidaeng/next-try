@@ -88,13 +88,14 @@ h4 {
     border-bottom: #FCF6BC solid 2px;
     padding:2px 10px;
 }
-/*footer is fixed but hides content above
-I'm thinking I need to add margin to bottom of the last <section>?*/
+/*Footer is fixed BUT it goes all the way out to the side on the right
+I don't like that. tried changing margins, alignment but didnt help. 
+change width to 97% helped but only in full screen*/
 footer {
     position: fixed;
     left: o;
     bottom: 0;
-    width: 100%;
+    width: 97%;
     font-size: 20px;
     font-style: italic;
     text-align: center;
